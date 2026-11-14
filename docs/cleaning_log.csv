@@ -1,0 +1,17 @@
+issue,affected_column,affected_rows,action_taken,reason
+Missing values,Delivery_person_Age,1854,Filled with median,Kept all records
+Missing values,Delivery_person_Ratings,1908,Filled with median,Kept all records
+Missing values,Time_Orderd,1731,Kept as missing,Actual time cannot be guessed
+Missing values,Weather_conditions,616,Filled with Unknown,Preserved missing information
+Missing values,Road_traffic_density,601,Filled with Unknown,Preserved missing information
+Missing values,multiple_deliveries,993,Filled with median,Kept all records
+Missing values,Festival,228,Filled with Unknown,Preserved missing information
+Missing values,City,1200,Filled with Unknown,Preserved missing information
+Time format,Time_Orderd,4068,Converted decimal values,Standardized time format
+Time format,Time_Order_picked,4127,Converted decimal values,Standardized time format
+Time anomaly,Time_Order_picked,880,"Normalized 24:05, 24:10, 24:15",Documented midnight assumption
+Numerical inspection,Delivery_person_Age,0,No change,Observed range 15–50
+Numerical inspection,Delivery_person_Ratings,53,Retained values above 5,Rating scale needs confirmation
+Numerical inspection,multiple_deliveries,0,No change,Observed values 0–3
+Numerical inspection,Vehicle_condition,520,Retained value 3,Category meaning needs confirmation
+Numerical inspection,Time_taken (min),0,No change,Observed range 10–54 minutes
