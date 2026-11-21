@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🍔 FOOD DELIVERY DATA ANALYSIS
+#  FOOD DELIVERY DATA ANALYSIS
 
 ### From Raw Data to Actionable Business Insights
 
